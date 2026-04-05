@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TakupAdSDKXCFramework",
-            url: "https://github.com/huajis/TakupAdSDK/releases/download/\(version)/TakupAdSDK.xcframework.zip"
+            url: "https://github.com/huajis/TakupAdSDK/releases/download/\(version)/TakupAdSDK.xcframework.zip",
             checksum: checksum
         ),
     ]
